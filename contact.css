@@ -1,0 +1,132 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+:root{
+    --main-color:rgb(232, 200, 140);
+    --secondary-color:rgb(255, 255, 255);
+    --text-color:rgba(26, 25, 25, 0.902);
+    --bg-color:rgb(0, 0, 0);
+    --box-shadow:2px 2px 10px 14px rgb(14 55 54 / 15%);
+}
+
+
+header{
+    background-color: var(--main-color  );
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(76, 47, 47);
+}
+header .img_src{
+    width: 50px;
+    margin-right:100px;
+}
+
+ 
+header h1{
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+
+}
+
+header nav {
+    padding-bottom:10px;
+}
+
+header nav ul li{
+    display: inline;
+    font-size: 12px;
+    margin: 0 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*contact*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #eae7e7;
+    box-shadow: var(--box-shadow);
+}
+
+.contact-info {
+    width: 40%;
+}
+
+.contact-info h2 {
+    font-size: 32px;
+}
+
+.contact-info h2 span {
+    color: red;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.info-item img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.info-item h4 {
+    margin: 0;
+    color: red;
+    font-weight: bold;
+}
+
+.info-item p {
+    margin: 5px 0 0;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 70px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}

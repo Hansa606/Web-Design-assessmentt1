@@ -1,0 +1,133 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+:root{
+    --main-color:rgb(232, 200, 140);
+    --secondary-color:rgb(255, 255, 255);
+    --text-color:rgba(26, 25, 25, 0.902);
+    --bg-color:rgb(0, 0, 0);
+    --box-shadow:2px 2px 10px 14px rgb(14 55 54 / 15%);
+}
+
+
+header{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+ 
+    background: var(--main-color);
+    color: #f1f1f1;
+    padding: 16px;
+}
+header .img_src{
+    width: 50px;
+    margin-right:100px;
+}
+
+ 
+header h1{
+    padding-top: 10px;
+    font-size: 30px;
+    color: var(--text-color);
+    padding-bottom: 30-px;
+}
+
+header nav {
+    padding-bottom:10px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li{
+display: inline;
+font-size: 12px;
+margin: 0 8px;
+ 
+}
+/*car photo*/
+.Container p{
+    background-size: cover;
+    background-image: url(car-7291166_1280.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    padding-bottom: 37rem;
+    padding-top: 20px;
+}
+
+h5{
+    font-size: larger;
+    font-family:koho;
+    padding: 10px ;
+    color: rgb(0, 0, 0);
+    background-color: #e0dfdf;
+}
+
+h2{
+    font-size: larger;
+    font-family:koho;
+    color: rgb(0, 0, 0);
+    background-color: #f5f2db;}
+
+h3{
+text-align: center;
+font-family: oswald; 
+background-color: rgb(183, 236, 236);
+}
+
+hasn{
+    font-family: oswald; 
+    background-color: rgb(255, 250, 176);
+    text-align: justify;
+}
+
+.descripion{
+    
+    font-family:koho;
+    text-align: center;
+}
+
+
+.cite-mid{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+cite{
+    font-family: oswald ;
+}
+
+/*staf photo*/
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    border-bottom: 0.5rem;
+    object-fit:cover;
+    padding: 3px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row:after {
+   
+    clear: both;
+    display: table;
+  }
